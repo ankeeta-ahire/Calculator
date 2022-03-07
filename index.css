@@ -18,7 +18,8 @@
 .stk{
     font-size: 190%;
     font-weight: 700;
-    color: rgb(26, 3, 117);
+    /* color: rgb(26, 3, 117); */
+    color: white;
     padding-left: 4rem;
     padding-top: 2rem;
 }
@@ -76,6 +77,7 @@ a{
 }
 .container{
     position: absolute;
+    color: white;
     
     background: rgba(255, 255, 255,0.05);
     border-radius: 6px;
@@ -156,7 +158,8 @@ h1:hover{
 .tops{
     font-size: 190%;
     font-weight: 700;
-    color: rgb(26, 3, 117);
+    /* color: rgb(26, 3, 117); */
+    color: white;
     padding-left: 4rem;
     padding-top: 2rem;
 }
@@ -166,6 +169,10 @@ h1:hover{
     padding-left: 5rem;
     font-size: 200%;
     font-weight: 700;
+}
+
+.top-heading{
+    color: white;
 }
 
 @media screen and (max-width:1000px){
